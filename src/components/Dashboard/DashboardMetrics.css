@@ -1,0 +1,35 @@
+.dashboard-metrics {
+    padding: 20px;
+}
+
+.metrics-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.metric-card {
+    background-color: #f3f4f6; /* Light background for cards */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.15);
+}
+
+.metric-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.metric-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a4a4a;
+}

@@ -1,0 +1,35 @@
+.list-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.list-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: calc(50% - 20px); /* Each card takes up half the screen width minus the gap */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.list-table th,
+.list-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-table th {
+    background-color: #f4f4f4;
+}

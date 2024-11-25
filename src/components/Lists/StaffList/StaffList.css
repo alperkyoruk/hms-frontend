@@ -1,0 +1,31 @@
+.list-container {
+    width: 100%;
+    padding: 20px;
+    display: block;
+}
+.list-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    width: 100%;
+    max-width: calc(50% - 20px); /* Each card takes up half the screen width minus the gap */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+.card-row:last-child {
+    border-bottom: none;
+}
+.card-data {
+    flex: 1;
+    text-align: left;
+}

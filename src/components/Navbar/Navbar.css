@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-left .hotel-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-right a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar-right a:hover {
+    text-decoration: underline;
+}

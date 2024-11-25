@@ -1,0 +1,26 @@
+/* src/components/Dashboard.css */
+
+.dashboard {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-cards {
+    overflow-y: auto; /* Allow scrolling */
+    max-height: 80vh; /* Limit the dashboard height */
+}
+
+.dashboard-lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.list-card {
+    flex: 1 1 calc(50% - 20px); /* Two cards in a row, taking full available width with gap */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px;
+}
